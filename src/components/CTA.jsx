@@ -26,7 +26,7 @@ const CTA = () => {
         </p>
         <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6">
           <motion.a
-            href="mailto:hello@elevantelabs.com"
+            href="mailto:yash@elevantelabs.in"
             initial="initial"
             whileHover="hovered"
             className="relative flex flex-col whitespace-nowrap rounded-full p-0 text-center border border-stone-950 overflow-hidden cursor-pointer w-64 md:w-72"
@@ -54,7 +54,7 @@ const CTA = () => {
           </motion.a>
 
           <motion.a
-            href="mailto:hello@elevantelabs.com"
+            href="mailto:aakash@elevantelabs.in"
             initial="initial"
             whileHover="hovered"
             className="relative flex flex-col whitespace-nowrap rounded-full p-0 text-center border border-stone-300 overflow-hidden cursor-pointer w-64 md:w-72"

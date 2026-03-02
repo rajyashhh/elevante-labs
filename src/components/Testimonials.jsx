@@ -6,26 +6,26 @@ const testimonials = [
   {
     quote:
       "Elevante Labs didn't just build our platform — they reimagined how our entire business operates. The technical depth and design sensibility are unmatched.",
-    name: "Sarah Chen",
-    role: "CTO, NovaPay",
+    name: "Rajesh Kumar",
+    role: "CEO, TechVenture India",
   },
   {
     quote:
       "Working with them felt like having a world-class engineering team in-house. They shipped faster than we ever expected, and the quality speaks for itself.",
-    name: "Marcus Webb",
-    role: "Founder, Orbital Systems",
+    name: "Anjali Singh",
+    role: "Founder, DigitalFirst Solutions",
   },
   {
     quote:
       "From architecture to deployment, everything was handled with precision. Our platform handles 10x the traffic now with zero downtime.",
-    name: "Priya Sharma",
-    role: "VP Engineering, Helix Bio",
+    name: "Vikram Patel",
+    role: "VP Engineering, InnovateLabs",
   },
   {
     quote:
       "They turned a rough concept into a product that raised our Series A. The team truly understands what it means to build for scale.",
-    name: "James Okafor",
-    role: "CEO, BrewStack",
+    name: "Neha Gupta",
+    role: "Director, CloudHub Ventures",
   },
 ];
 

@@ -34,19 +34,11 @@ const SocialMediaLinks = () => {
   const socialLinks = [
     {
       name: "Twitter / X",
-      url: "https://x.com/elevantelabs",
-    },
-    {
-      name: "LinkedIn",
-      url: "https://www.linkedin.com/company/elevantelabs",
+      url: "https://x.com/ElevanteLabs",
     },
     {
       name: "GitHub",
-      url: "https://github.com/elevantelabs",
-    },
-    {
-      name: "Dribbble",
-      url: "https://dribbble.com/elevantelabs",
+      url: "https://github.com/Elevante-Labs",
     },
   ];
 

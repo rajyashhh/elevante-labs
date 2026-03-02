@@ -20,7 +20,7 @@ const Footer = () => {
       "Press Kit",
     ],
     Connect: [
-      { name: "Twitter / X", url: "https://x.com/elevantelabs" },
+      { name: "Twitter / X", url: "https://x.com/ElevanteLabs" },
       { name: "LinkedIn", url: "https://linkedin.com/company/elevantelabs" },
       { name: "GitHub", url: "https://github.com/elevantelabs" },
       { name: "Dribbble", url: "https://dribbble.com/elevantelabs" },

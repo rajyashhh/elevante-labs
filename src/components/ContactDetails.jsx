@@ -19,7 +19,7 @@ const ContactDetails = () => {
             transition={{ duration: 0.1 }}
             className="absolute inset-0 py-1 md:py-2 text-white bg-stone-950 border-none rounded-full"
           >
-            hello@elevantelabs.com
+            yash@elevantelabs.in
           </motion.div>
           <motion.div
             variants={{
@@ -29,7 +29,7 @@ const ContactDetails = () => {
             transition={{ duration: 0.1, type: "tween", ease: "easeIn" }}
             className="relative rounded-full py-1 md:py-2 px-6 text-stone-950 bg-stone-200 border-none"
           >
-            hello@elevantelabs.com
+            yash@elevantelabs.in
           </motion.div>
         </motion.div>
 
@@ -47,7 +47,7 @@ const ContactDetails = () => {
             transition={{ duration: 0.1 }}
             className="absolute inset-0 py-1 md:py-2 text-white bg-stone-950 border-none rounded-full"
           >
-            +1 (800) 987-6543
+            aakash@elevantelabs.in
           </motion.div>
           <motion.div
             variants={{
@@ -57,7 +57,63 @@ const ContactDetails = () => {
             transition={{ duration: 0.1, type: "tween", ease: "easeIn" }}
             className="relative rounded-full py-1 md:py-2 px-6 text-stone-950 bg-stone-200 border-none"
           >
-            +1 (800) 987-6543
+            aakash@elevantelabs.in
+          </motion.div>
+        </motion.div>
+
+        <motion.div
+          initial="initial"
+          whileHover="hovered"
+          transition={{ duration: 2 }}
+          className="relative flex flex-col whitespace-nowrap rounded-full p-0 text-center border border-stone-200 overflow-hidden hover:cursor-pointer"
+        >
+          <motion.div
+            variants={{
+              initial: { y: 0 },
+              hovered: { y: "-100%", opacity: 0 },
+            }}
+            transition={{ duration: 0.1 }}
+            className="absolute inset-0 py-1 md:py-2 text-white bg-stone-950 border-none rounded-full"
+          >
+            +91 9155277350
+          </motion.div>
+          <motion.div
+            variants={{
+              initial: { y: "100%" },
+              hovered: { y: 0 },
+            }}
+            transition={{ duration: 0.1, type: "tween", ease: "easeIn" }}
+            className="relative rounded-full py-1 md:py-2 px-6 text-stone-950 bg-stone-200 border-none"
+          >
+            +91 9155277350
+          </motion.div>
+        </motion.div>
+
+        <motion.div
+          initial="initial"
+          whileHover="hovered"
+          transition={{ duration: 2 }}
+          className="relative flex flex-col whitespace-nowrap rounded-full p-0 text-center border border-stone-200 overflow-hidden hover:cursor-pointer"
+        >
+          <motion.div
+            variants={{
+              initial: { y: 0 },
+              hovered: { y: "-100%", opacity: 0 },
+            }}
+            transition={{ duration: 0.1 }}
+            className="absolute inset-0 py-1 md:py-2 text-white bg-stone-950 border-none rounded-full"
+          >
+            +91 7985113984
+          </motion.div>
+          <motion.div
+            variants={{
+              initial: { y: "100%" },
+              hovered: { y: 0 },
+            }}
+            transition={{ duration: 0.1, type: "tween", ease: "easeIn" }}
+            className="relative rounded-full py-1 md:py-2 px-6 text-stone-950 bg-stone-200 border-none"
+          >
+            +91 7985113984
           </motion.div>
         </motion.div>
       </div>
